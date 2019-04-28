@@ -18,11 +18,11 @@ public class Security extends WebSecurityConfigurerAdapter {
      .formLogin()
     	 .and()
      .logout().logoutRequestMatcher(new AntPathRequestMatcher("/logout")).logoutSuccessUrl("/");
-  }
+  } // log in log out
 
   @Autowired
   public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
     auth.inMemoryAuthentication()
       .withUser("user").password("user").roles("USER");
-  }
+  } // User and Password = user
 }

@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>ADCWA Final Project</title>
+<title>New Loan</title>
 </head>
 <body>
 	<h1>New Loan</h1>

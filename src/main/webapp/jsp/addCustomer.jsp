@@ -5,19 +5,19 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Add Customer</title>
 </head>
 <body>
 	<form:form modelAttribute="custAdd">
 		<h1>Customer Book</h1>
 		<table id="addTable">
 			<tr>
-				<td>Cust Name:</td>
+				<td>Customer Name:</td>
 				<td><form:input path="cName"></form:input></td>
 				<td><form:errors path="cName"></form:errors></td>
 			</tr>
 			<tr>
-				<td>Loan Period (days):</td>
+				<td>Loan Duration (days):</td>
 				<td><form:input path="loanPeriod"></form:input></td>
 				<td><form:errors path="loanPeriod"></form:errors></td>
 			</tr>

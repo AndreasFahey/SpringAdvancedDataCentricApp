@@ -6,7 +6,9 @@
 <head>
 <style type="text/css">
 th, td, table {
-	color:#666B85;
+	background-color: #FFFF00;
+	font-family:georgia,garamond,serif;
+	color: #008000;
 	border: 2px solid black;
 	padding: 0px;
 }
@@ -37,7 +39,6 @@ th, td, table {
 	<a href="/addBook">Add Book</a>
 	<a href="/showCustomers">List Customers</a>
 	<a href="/showLoans">List Loans</a>
-	<a href="/addCustomer">LogOut</a>
 
 </body>
 </html>

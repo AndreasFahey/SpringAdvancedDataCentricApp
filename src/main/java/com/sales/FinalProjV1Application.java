@@ -8,6 +8,7 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 @SpringBootApplication
 public class FinalProjV1Application extends SpringBootServletInitializer {
 
+	//Run Application as Spring Boot Application
 	public static void main(String[] args) {
 		SpringApplication.run(FinalProjV1Application.class, args);
 	}
